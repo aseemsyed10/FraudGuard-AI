@@ -1,1 +1,0 @@
-FraudGuard project status: Week 1 complete - baseline model built, in review
