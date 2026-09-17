@@ -173,8 +173,12 @@ def generate_transactions(
     df = df.sort_values("step").reset_index(drop=True)
     return df
 
-
 if __name__ == "__main__":
     data = generate_transactions()
+
     print(data.shape)
     print(data["isFraud"].value_counts(normalize=True))
+
+    data.to_csv("project/data/fraudguard_transactions.csv", index=False)
+
+    print("Dataset saved to project/data/fraudguard_transactions.csv")
