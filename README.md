@@ -16,6 +16,7 @@ FraudGuard AI is an AI-based fraud detection project developed as part of my Dep
 - Fraud data generation implemented
 - Initial Jupyter notebook created
 - GitHub repository configured
+- Week 1 baseline fraud model and production gap analysis completed
 
 ## Technologies
 
